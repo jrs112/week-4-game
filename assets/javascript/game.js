@@ -1,12 +1,12 @@
 
-	var yourScore = 0;
+    var yourScore = 0;
 	var gameScore = 0;
 	var wins = 0;
 	var losses = 0;
-	var imgRed = 1;
-	var imgBlue = 1;
-	var imgYellow = 1;
-	var imgGreen = 1;
+	var imgRed = 0;
+	var imgBlue = 0;
+	var imgYellow = 0;
+	var imgGreen = 0;
 
 	function startGame() {
 		yourScore = 0;
@@ -39,7 +39,7 @@
 			startGame();
 		}
 		if(yourScore > gameScore) {
-			alert("Yous Lose!");
+			alert("You Lose!");
 			losses++;
 			startGame();
 		}
